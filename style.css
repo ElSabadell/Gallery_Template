@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-areas: 
+    "i1 i1 i2 i2 i2 i3 i3 i3"
+    "i1 i1 i2 i2 i2 i4 i5 i5"
+    "i1 i1 i6 i7 i8 i9 i5 i5"
+    "i1 i1 i10 i11 i11 i11 i5 i5";
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.i1{
+    grid-area: i1;
+    background-color: #262626;
+}
+.i2{
+    grid-area: i2;
+    background-color: #000;
+    height: 10em;
+}
+.i3{
+    grid-area: i3;
+    background-color: #cf3939;
+}
+.i4{
+    grid-area: i4;
+    background-color: #25d474;
+}
+.i5{
+    grid-area: i5;
+    background-color: #1983e6;
+}
+.i6{
+    grid-area: i6;
+    background-color: #c40d96;
+    height: 5em;
+}
+.i7{
+    grid-area: i7;
+    background-color: #14b8b8;
+}
+.i8{
+    grid-area: i8;
+    background-color: #3c0a99;
+}
+.i9{
+    grid-area: i9;
+    background-color: #f11f1f;
+}
+.i10{
+    grid-area: i10;
+    background-color: #c1e717;
+    height: 5em;
+}
+.i11{
+    grid-area: i11;
+    background-color: #ac7373;
+}
